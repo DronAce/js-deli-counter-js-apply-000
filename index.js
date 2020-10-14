@@ -4,6 +4,9 @@
 //   return "Welcome, " + name + ". You are number " + katzDeliLine + " in line.";
 // }
 
+
+  var c = 0
+
 function nowServing(katzDeliLine) {
   while (katzDeliLine.length > 0) {
 <<<<<<< HEAD
@@ -31,9 +34,7 @@ function currentLine(katzDeliLine) {
 }
 
 function takeANumber(katzDeliLine) {
-  var c = 0
-  var d = [];
-  d.push(katzDeliLine.shift());
+  katzDeliLine.push(c);
   c ++
   return "You are number " + c;
 }
