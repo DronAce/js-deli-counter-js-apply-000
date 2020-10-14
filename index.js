@@ -4,7 +4,6 @@
 //   return "Welcome, " + name + ". You are number " + katzDeliLine + " in line.";
 // }
 
-
 var c = 0;
 
 function nowServing(katzDeliLine) {
