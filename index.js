@@ -29,4 +29,3 @@ function currentLine(katzDeliLine) {
   }
   return "There is nobody waiting to be served!"
 }
-
