@@ -29,3 +29,11 @@ function currentLine(katzDeliLine) {
   }
   return "There is nobody waiting to be served!"
 }
+
+function takeANumber(katzDeliLine) {
+  var c = 0
+  var d = [];
+  d.push(katzDeliLine.shift());
+  c ++
+  return "You are number " + c;
+}
